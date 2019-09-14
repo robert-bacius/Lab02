@@ -8,6 +8,23 @@
     <link rel="stylesheet" media="screen" href="Lab02/css/screen.css" />
 </head>
 <body>
-
+<h2>Beta Testing List</h2>
+<form method="POST" autocomplete="on" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" enctype="multipart/form-data">
+    <fieldset>
+        <div>
+            <label>Phone Number: <input type="number" name="phone_field" size="15"></label>
+        </div>
+        <div>
+            <label>Email Address: <input type="email" name="email_field" size="30"></label>
+        </div>
+        <div>
+            <label>Birthday: <input type="date" name="birth_date" size="30"></label>
+        </div>
+    <div>
+        <input type="hidden" name="hidden_field" value="rbacius@hawk.iit.edu">
+    </div>
+    <input type="submit" value="Submit ">
+</form>
 </body>
+
 </html>
