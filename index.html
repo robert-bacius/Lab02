@@ -4,15 +4,14 @@
     <title>Lab 2</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-    <link rel="stylesheet" media="screen" href="Lab02/css/reset.css" />
-    <link rel="stylesheet" media="screen" href="Lab02/css/screen.css" />
+    <link rel="stylesheet" media="screen" href="css/reset.css" />
+    <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
 <h2>Beta Testing List</h2>
 <form method="POST" autocomplete="on" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" enctype="multipart/form-data">
-    <fieldset>
         <div>
-            <label>Phone Number: <input type="number" name="phone_field" size="15"></label>
+            <label>Phone Number: <input type="number" name="phone_field" size="30"></label>
         </div>
         <div>
             <label>Email Address: <input type="email" name="email_field" size="30"></label>
@@ -23,7 +22,7 @@
     <div>
         <input type="hidden" name="hidden_field" value="rbacius@hawk.iit.edu">
     </div>
-    <input type="submit" value="Submit ">
+    <input type="submit" value="Submit" id="submit_button">
 </form>
 </body>
 
